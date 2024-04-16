@@ -23,14 +23,43 @@
 </head>
 
 <body>
-    <section class="content">
-        <h1>Pokedex</h1>
+    <main class="content">
+      <div class="pokemon__view">
+        <div>
+          <div class="pokemon__name-n-types">
+            <h1>Bulbasaur</h1>
+
+            <div class="pokemon__types">
+              <span>grass</span>
+              <span>Poison</span>
+            </div>
+          </div>
+
+          <div class="pokemon__number">
+            <span class="number">#001</span>
+          </div>
+        </div>
+
+        <div class="pokemon__photo">
+          <img 
+            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+            alt="Bulbasaur"
+          >
+        </div>
+      </div>
+
+      <div class="pokemon__base-infos">
+        <span class="pokemon__status-name">HP</span>
+        <span class="pokemon__status-number">45</span>
+        <progress value="45" max="100"></progress>
+      </div>
+        <!-- <h1>Bulbasaur</h1>
 
         <ol class="pokemons">
             <li class="pokemon">
-                <a class="pokemon-button" href="/pokemons.html#001">
-                    <span class="number">#001</span>
-                    <span class="name">Bulbasaur</span>
+                <button class="pokemon-button" type="button" onclick="setUrlHash('001')">
+                  <span class="name">Bulbasaur</span>
+                  <span class="number">#001</span>
 
                     <div class="detail">
                         <ol class="types">
@@ -41,10 +70,10 @@
                         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
                             alt="Bulbasaur">
                     </div>
-                </a>
+                </button>
             </li>
-        </ol>
-    </section>
+        </ol> -->
+    </main>
 
     <!-- Nosso JS -->
     <script src="/assets/js/main.js"></script>

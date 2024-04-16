@@ -10,9 +10,16 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
-    padding: 1rem;
     border-radius: 1rem;
     background-color: #49d0b0;
+    overflow: hidden;
+}
+
+.pokemon-button {
+    background: none;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
