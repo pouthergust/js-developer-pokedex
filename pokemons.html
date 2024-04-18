@@ -20,38 +20,44 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/poke-datails.css">
 </head>
 
-<body>
+<body>  
     <main class="content">
-      <div class="pokemon__view">
-        <div>
-          <div class="pokemon__name-n-types">
-            <h1>Bulbasaur</h1>
-
-            <div class="pokemon__types">
-              <span>grass</span>
-              <span>Poison</span>
+      <div>
+        <a href="/">Voltar</a>
+      </div>
+      <div class="pokemon-card grass">
+        <div class="pokemon__view">
+          <div class="pokemon__header-infos">
+            <div class="pokemon__name-n-types">
+              <h1 class="pokemon__name">Bulbasaur</h1>
+  
+              <div class="pokemon__types">
+                <span>grass</span>
+                <span>Poison</span>
+              </div>
+            </div>
+  
+            <div class="pokemon__number">
+              <span class="number">#001</span>
             </div>
           </div>
-
-          <div class="pokemon__number">
-            <span class="number">#001</span>
+  
+          <div class="pokemon__photo">
+            <img 
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+              alt="Bulbasaur"
+            >
           </div>
         </div>
-
-        <div class="pokemon__photo">
-          <img 
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-            alt="Bulbasaur"
-          >
+  
+        <div class="pokemon__base-infos">
+          <span class="pokemon__status-name">HP</span>
+          <span class="pokemon__status-number">45</span>
+          <progress value="45" max="100"></progress>
         </div>
-      </div>
-
-      <div class="pokemon__base-infos">
-        <span class="pokemon__status-name">HP</span>
-        <span class="pokemon__status-number">45</span>
-        <progress value="45" max="100"></progress>
       </div>
         <!-- <h1>Bulbasaur</h1>
 

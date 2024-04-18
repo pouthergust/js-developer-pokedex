@@ -1,0 +1,35 @@
+:root {
+  --pad: 15px;
+  --radius: 30px;
+}
+
+.pokemon-card {
+  border-radius: var(--radius);
+  margin: auto;
+  width: fit-content;
+  padding-bottom: 15px;
+}
+
+.pokemon__view {
+  padding-left: var(--pad);
+  padding-right: var(--pad);
+}
+
+.pokemon__header-infos {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  padding-bottom: var(--pad);
+  justify-content: space-between;
+}
+
+.pokemon__number {
+  justify-self: end;
+}
+
+.pokemon__base-infos {
+  background-color: #fff;
+  border-radius: var(--radius);
+  margin-bottom: -20px;
+  padding: var(--radius);
+}
