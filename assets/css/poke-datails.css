@@ -3,7 +3,7 @@
   --radius: 30px;
 }
 
-.pokemon-card {
+.pokemon__card {
   border-radius: var(--radius);
   margin: auto;
   width: fit-content;
@@ -23,13 +23,35 @@
   justify-content: space-between;
 }
 
+.pokemon__types {
+  display: flex;
+  gap: 15px;
+}
+
 .pokemon__number {
   justify-self: end;
 }
 
-.pokemon__base-infos {
+.pokemon__status {
   background-color: #fff;
   border-radius: var(--radius);
   margin-bottom: -20px;
   padding: var(--radius);
+}
+
+.pokemon__photo-wrapper {
+  max-width: 100%;
+  margin: auto;
+  width: 250px;
+}
+
+.pokemon__base-infos {
+  padding: 8px 0;
+  display: grid;
+  grid-template-columns: 35% 10% 55%;
+  place-items: center;
+}
+
+.pokemon__status-name {
+  margin-right: auto;
 }
